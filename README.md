@@ -93,3 +93,7 @@
 * <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">
 <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
 * 파비콘.ico 경로에 <./> 으로 넣는다
+## 이미지태그 `img`
+* <img src="url" alt=""> 기본태그
+* 이미지 사용 시 의미전달이 필요한 이미지인지 필요하지 않은 이미지인지 구분해야한다.
+* ex) <p><a href="#"><img src="./image_video/images/aoa_banner.jpg" alt="접근성 오픈 아카데미 유투브 채널 . 매주 월요일 컨텐츠 업데이트"></a></p>
