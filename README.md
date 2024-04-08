@@ -93,6 +93,7 @@
 * <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon">
 <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
 * 파비콘.ico 경로에 <./> 으로 넣는다
+
 ## 이미지태그 `img`
 * <img src="url" alt=""> 기본태그
 * 이미지 사용 시 의미전달이 필요한 이미지인지 필요하지 않은 이미지인지 구분해야한다.
@@ -109,8 +110,25 @@
 <img src=”URL” alt””>
 <figcaption>신혼일기</figcaption>
 <figcaption>자까</fogcaption>
+
 ## 이미지 태그'img' inline
 * <img src='' alt=''>
 * alt 는 시각장애인이 편견없이 정보확일할 수 있도록 한다.
 * src 부분에 './' 이렇게 시작하면 현재폴더에서 상위로만 가능
 * '../' 이렇게 시작하면 하위폴더로 나갈 수 있음
+## class, id 많이 사용하는 키워드
+* wrapper, wrap, area 전체 묶는 영역
+* comtents, container 중~소 묶는 영역
+* group, g 간단한 소그룹 영역
+* top, btm, left, right 레이아웃 방향을 의미하는 키워드
+* 예 : 의미있는단어_영역명
+* 예시 : product_wrap, item_area, price_g, main_contents 
+## div, span 그룹태그
+### div 
+* 인라인과 블록이 2개이상 형제일 경우 묶어주는 그룹태그
+* 레이아웃 기준 1행 2열 이상 배치일경우
+* 특정 의미를 가진 행에 같은 디자인 요소가 배치된 경우
+### span
+* 인라인이 2개 이상 형제일 경우 
+* 의미없는 디자인 요소 인라인 처리 필요 시 사용
+* 
