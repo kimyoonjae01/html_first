@@ -96,4 +96,21 @@
 ## 이미지태그 `img`
 * <img src="url" alt=""> 기본태그
 * 이미지 사용 시 의미전달이 필요한 이미지인지 필요하지 않은 이미지인지 구분해야한다.
-* ex) <p><a href="#"><img src="./image_video/images/aoa_banner.jpg" alt="접근성 오픈 아카데미 유투브 채널 . 매주 월요일 컨텐츠 업데이트"></a></p>
+* ex <p><a href="#"><img src="./image_video/images/aoa_banner.jpg" alt="접근성 오픈 아카데미 유투브 채널 . 매주 월요일 컨텐츠 업데이트"></a></p>
+## 비디오태그
+* 작성방법 1 
+<video src=”동영상경로”></video> autoplay,loop,muted 속성 잊지말기
+작성방법2
+* <video>
+* <source src=’동영상경로’ type=’동영상타입1’> 속성 잊지 말기 
+## fighure, figcaotion / 이미지 누르든 글 누르든 똑같은 곳으로 가기
+* 문서 안 사진을 감싸는 틀로서 활용하고 사진의 캡션을 정의할 수 있음
+* <figure>
+<img src=”URL” alt””>
+<figcaption>신혼일기</figcaption>
+<figcaption>자까</fogcaption>
+## 이미지 태그'img' inline
+* <img src='' alt=''>
+* alt 는 시각장애인이 편견없이 정보확일할 수 있도록 한다.
+* src 부분에 './' 이렇게 시작하면 현재폴더에서 상위로만 가능
+* '../' 이렇게 시작하면 하위폴더로 나갈 수 있음
